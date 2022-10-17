@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: dosis;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* a > i {
+    pointer-events: none;
+} */
+
+ul {
+    margin-bottom: 0px;
+}
+
+.shop-header img {
+    padding-left: 50px;
+    height: 100px;
+}
+
+.shop-menu ul li {
+    display: inline-block;
+}
+
+.shop-menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: #ccc;
+}
+
+.widget {
+    margin-bottom: 20px;
+}
+
+.widget .widget-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.category ul {
+ padding-left: 0px;
+}
+
+.category ul li {
+    padding-left: 10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.category ul li a {
+    color: #333;
+    display: block;
+    padding: 5px 0px;
+}
+
+.tags-item {
+    display: flex;
+    gap: 5px;
+}
+
+.tags-item a {
+    display: block;
+    padding: 4px 10px;
+    background-color: #333;
+    color: #ccc;
+    border-radius: 5px;
+}
+
+.single-view .single-price {
+    font-size: 24px;
+    display: block;
+    margin: 10px 0px;
+}
+
+.dash-menu ul {
+    padding-left: 0px;
+}
+
+.dash-menu ul li {
+    padding: 10px 20px;
+}
+
+.dash-menu ul li a {
+    display: block;
+    color: #333;
+    border-bottom: 1px dotted #ccc;
+}
+
+.price {
+    margin-top: -3px;
+}
